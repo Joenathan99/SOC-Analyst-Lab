@@ -25,6 +25,4 @@ Each lab documents the investigation workflow, findings, and recommendations, si
 ## Status
 Labs will be added progressively as I complete the SOC Level 1 path.
 
-Note: This repository reflects hands-on training and continuous skill development toward a junior SOC Analyst role.
-
 📌 **Note:** This repository reflects hands-on training and continuous skill development toward a junior SOC Analyst role.

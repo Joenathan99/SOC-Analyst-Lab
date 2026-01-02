@@ -41,13 +41,20 @@ Evidence Reviewed:
 
 - User context associated with the action
 
+<img width="1802" height="520" alt="Double-Extension File Creation" src="https://github.com/user-attachments/assets/bd427e0e-60f6-43ae-b9e4-649f106e0d2b" />
+
+
+
 Analysis:
 
-Double-extension files are often associated with phishing or malware delivery. However, context is critical. Upon reviewing the available details, there was no supporting evidence of execution, user interaction, or follow-on malicious behavior related to this file.
+Double-extension files are often associated with phishing or malware deliverym, this was enough to draw conclusion on my verdict of TRUE POSITIVE
 
-Verdict:
-False Positive
+
+<img width="1769" height="404" alt="Screenshot 2026-01-02 195152" src="https://github.com/user-attachments/assets/874b7356-9459-4ce4-933b-8cf95ad86232" />
+
+
 
 Reasoning:
 
-While the filename pattern is suspicious, there was insufficient evidence to confirm malicious intent or impact. No additional indicators of compromise were observed.
+The filename pattern is suspicious, that gave enough reason to flag it. No additional indicators of compromise were observed. This would result in generating the flag for the challenge.
+

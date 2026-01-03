@@ -58,3 +58,67 @@ Reasoning:
 
 The filename pattern is suspicious, that gave enough reason to flag it. No additional indicators of compromise were observed. This would result in generating the flag for the challenge.
 
+
+
+Alert 2: Potential Data Exfiltration
+
+Severity: Critical
+
+Alert Description: 
+
+This alert was generated due to a large or unusual outbound data transfer, which could indicate possible data exfiltration.
+
+Evidence Reviewed
+
+- Network traffic volume
+
+- Destination address
+
+- Timing of the data transfer
+
+
+
+<img width="1837" height="407" alt="Screenshot 2026-01-02 220643" src="https://github.com/user-attachments/assets/d8a53010-e48c-491f-ad69-394efd11aa24" />
+
+Analysis:
+
+The data transfer exceeded normal thresholds and was flagged as critical. However, the destination and behavior aligned with expected system or user activity, and no sensitive data indicators were identified. Hence my verdict of FALSE POSITIVE. 
+
+
+<img width="1819" height="459" alt="Screenshot 2026-01-02 221739" src="https://github.com/user-attachments/assets/b11f4a6a-3e54-4704-a43e-28067740b5ed" />
+
+
+Reasoning:
+
+Although the alert severity was high, the activity could be reasonably explained as legitimate data movement. There was no real evidence of malicious data exchange, which generated the right flag for the challenge.
+
+
+
+Alert 3: Download from GitHub Repository
+
+Severity: Low
+Status: Awaiting Action
+
+Alert Description:
+
+This alert indicated a file download originating from a GitHub repository.
+
+Evidence Reviewed:
+
+- Source domain (GitHub)
+
+- File type
+
+- User activity context
+
+<img width="1815" height="377" alt="Screenshot 2026-01-03 003046" src="https://github.com/user-attachments/assets/a0fa6cbe-2a5a-4ed3-b8fd-45710a1b743e" />
+
+Analysis:
+
+GitHub is commonly used for legitimate software downloads and development activity. No malicious indicators or suspicious behavior were associated with the download. Hence, my verdict of FALSE POSITIVE
+
+<img width="1819" height="351" alt="Screenshot 2026-01-03 003323" src="https://github.com/user-attachments/assets/8fc4e435-ff49-4baa-bd1f-5141ccd4a867" />
+
+Reasoning:
+
+The download originated from a trusted platform and matched normal user behavior. No further investigation was required. This in turn generated the flag to solve the challenge.

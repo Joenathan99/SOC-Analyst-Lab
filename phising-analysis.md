@@ -120,7 +120,7 @@ This indicates a successful phishing interaction, warranting further endpoint in
 
 📎 Notes
 
-This lab simulates real-world phising alerts and investigation workflows commonly performed in security operations centers.
+This lab simulates real-world phishing alerts and investigation workflows commonly performed in security operations centers.
 
 
 

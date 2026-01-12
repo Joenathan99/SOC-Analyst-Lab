@@ -1,8 +1,0 @@
-📌 Room: Phishing Analysis
-
-Platform: TryHackMe
-Difficulty: Beginner
-Focus: Email phishing investigation, proxy logs, firewall logs, SIEM analysis
-
-🧠 Objective
-The objective of this lab was to investigate a suspected phishing email and determine whether the user interacted with the malicious content by analyzing logs within a SIEM environment.
